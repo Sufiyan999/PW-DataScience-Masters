@@ -145,32 +145,3 @@ def show_urls():
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# temp =get_from_csv_file()
-#             return render_template('result.html', report_list=temp, channel=query)
