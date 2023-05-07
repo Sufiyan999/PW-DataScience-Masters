@@ -1,5 +1,5 @@
 ## Youtube Scraper Deployment
 
-Deployment Link: https://
+*Actually i don't have any credit or debit card,so i was not able to deploy it
 
-NOTE: It Take 30/60 sec to load
+

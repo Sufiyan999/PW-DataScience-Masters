@@ -18,10 +18,12 @@ app = Flask(__name__)
 print("Youtube Scrap")
 
 @app.route("/", methods = ['GET'])
+@cross_origin()
 def homepage():
     return render_template("index.html")
 
 @app.route("/review" , methods = ['POST' , 'GET'])
+@cross_origin()
 def index():
     if request.method == 'POST':
         try:
@@ -87,6 +89,7 @@ def index():
 
 
 @app.route('/download')
+@cross_origin()
 def download_file():
     filename = 'scrapped_data.csv'
     return send_file(filename, as_attachment=True)
@@ -115,6 +118,7 @@ def get_from_csv_file():
             return report_list    
 
 @app.route('/Thumbnail',methods = ['POST' , 'GET'])
+@cross_origin()
 def show_thumbs():
     report_list = get_from_csv_file()[1:]
     if not bool(report_list):
@@ -129,6 +133,7 @@ def show_thumbs():
     return render_template('imgs.html', img_urls=img_urls)
 
 @app.route('/Video url',methods = ['POST' , 'GET'])
+@cross_origin()
 def show_urls():
     report_list = get_from_csv_file()[1:]
     video_urls = [] 
@@ -144,4 +149,3 @@ def show_urls():
                     
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
-
