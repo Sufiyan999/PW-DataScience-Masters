@@ -1,0 +1,598 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:19:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:19:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:19:44] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:19:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:29] "[35m[1mGET /Thumbnail HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:29] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:29] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:29] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:30] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:40] "[35m[1mGET /Video%20url HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:40] "GET /Video%20url?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:40] "GET /Video%20url?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:41] "GET /Video%20url?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:41] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:20:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:21:01] "[35m[1mGET /Thumbnail HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:21:01] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:21:01] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 14:21:02] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:10:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:10:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:10:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:10:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:10:42] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:10:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:26:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:26:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:26:09] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:26:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:36] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:39] "[35m[1mGET /Thumbnail HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:39] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:40] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:30:40] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:32:54] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:32:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:32:54] "GET /static/css/example.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:33:01] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:33:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:33:01] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /@pwfoundation/videos (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:42] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:52] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:38:52] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:39:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:43:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:43:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:43:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:43:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:43:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:43:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:44:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:44:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:44:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:17] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:17] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /Title HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /How%20to%20Deploy%20a%20High%20Traffic%20Django%20Application%20using%20WSGI HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /b'Lets%20Build%20a%20Todos%20List%20App%20using%20Next.js%2013%20/xf0/x9f/x94/xa5' HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /Using%20MongoDB%20with%20Flask%20Applications%20(Efficiently) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /How%20to%20use%20TailwindCSS%20with%20Python%20Flask HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /Image%20Editing%20Website%20using%20Python%20Flask%20and%20OpenCV HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /How%20to%20Host%20Multiple%20Websites%20on%20a%20$5%20Server%20(Step%20by%20Step%20Guide) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /Exploring%20Requests%20Module%20in%20Python%20(Deepdive) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /Quick%20and%20Easy%20Guide%20to%20Set%20up%20Your%20WordPress%20Blog%20in%20Minutes%20(Fastest%20Way) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:24] "[33mGET /ChatGPT%20helped%20me%20create%20this%20KBC%20Quiz%20App%20(Watch%20me%20Build%20it) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /AWS%20Activate:%20A%20Program%20to%20Support%20Startups,%20Founders,%20/u0026%20Entrepreneurs%20%20|%20Amazon%20Web%20Services HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Python%20Crash%20Course%20in%20Hindi%20|%205%20Python%20Projects%20|%20Complete%20Python%20Tutorial HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Python%20vs%20JavaScript:%20Which%20one%20to%20Learn%20in%202023?%20(For%20Jobs) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Choosing%20the%20Right%20Python%20Web%20Framework:%20Django,%20Flask,%20or%20FastAPI HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /b'What%20is%20a%20Graph%20Database?%20|%20Getting%20Started%20with%20Neo4j%20AuraDB:%20A%20Step-by-Step%20Tutorial%20\\xf0\\x9f\\x94\\xa5' HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Free%20Office%20365%20on%20your%20Own%20Server%20(NextCloud%20Tutorial) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Stop%20Saving%20Your%20Passwords%20like%20this%20(Use%20Passky%20Instead!) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Install%20VS%20Code/FireFox%20like%20Apps%20on%20Ubuntu%20Server%20(Get%201GBPS%20Internet%20Speed%20for%20Free) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /I%20Created%20Discord%20like%20Calling%20App%20in%205%20Minutes...%20(With%20Custom%20Domain) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Docker%20Made%20Easy:%20Discover%20the%20Magic%20of%20Yacht HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:25] "[33mGET /Conclusion%20and%20Where%20to%20go%20from%20here%20|%20Python%20Tutorial%20-%20Day%20 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:53] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:50:53] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:51:26] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:51:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:51:27] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:51:30] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:51:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:51:30] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:52:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /Title HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /b'Lets%20Build%20a%20Todos%20List%20App%20using%20Next.js%2013%20/xf0/x9f/x94/xa5' HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /How%20to%20Deploy%20a%20High%20Traffic%20Django%20Application%20using%20WSGI HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /Using%20MongoDB%20with%20Flask%20Applications%20(Efficiently) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /How%20to%20use%20TailwindCSS%20with%20Python%20Flask HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /Image%20Editing%20Website%20using%20Python%20Flask%20and%20OpenCV HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /How%20to%20Host%20Multiple%20Websites%20on%20a%20$5%20Server%20(Step%20by%20Step%20Guide) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /Exploring%20Requests%20Module%20in%20Python%20(Deepdive) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /Quick%20and%20Easy%20Guide%20to%20Set%20up%20Your%20WordPress%20Blog%20in%20Minutes%20(Fastest%20Way) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /ChatGPT%20helped%20me%20create%20this%20KBC%20Quiz%20App%20(Watch%20me%20Build%20it) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /AWS%20Activate:%20A%20Program%20to%20Support%20Startups,%20Founders,%20/u0026%20Entrepreneurs%20%20|%20Amazon%20Web%20Services HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:32] "[33mGET /Python%20Crash%20Course%20in%20Hindi%20|%205%20Python%20Projects%20|%20Complete%20Python%20Tutorial HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Python%20vs%20JavaScript:%20Which%20one%20to%20Learn%20in%202023?%20(For%20Jobs) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Choosing%20the%20Right%20Python%20Web%20Framework:%20Django,%20Flask,%20or%20FastAPI HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /b'What%20is%20a%20Graph%20Database?%20|%20Getting%20Started%20with%20Neo4j%20AuraDB:%20A%20Step-by-Step%20Tutorial%20\\xf0\\x9f\\x94\\xa5' HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Free%20Office%20365%20on%20your%20Own%20Server%20(NextCloud%20Tutorial) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Stop%20Saving%20Your%20Passwords%20like%20this%20(Use%20Passky%20Instead!) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Install%20VS%20Code/FireFox%20like%20Apps%20on%20Ubuntu%20Server%20(Get%201GBPS%20Internet%20Speed%20for%20Free) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /I%20Created%20Discord%20like%20Calling%20App%20in%205%20Minutes...%20(With%20Custom%20Domain) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Docker%20Made%20Easy:%20Discover%20the%20Magic%20of%20Yacht HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:54:33] "[33mGET /Conclusion%20and%20Where%20to%20go%20from%20here%20|%20Python%20Tutorial%20-%20Day%20 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:55:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:55:32] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 15:55:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:13] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:13] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:13] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:50] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:50] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:50] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:00:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:02:13] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:root:HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /@codewithharry/videos (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:21] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:32] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:03:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:12:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:12:23] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:12:24] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:12:33] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:12:38] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:12:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:16:13] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:16:13] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:16:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:16:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:25:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:25:03] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:25:03] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:26:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:26:19] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:26:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:30:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:30:25] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:30:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:32:47] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:32:47] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:32:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:34:01] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:34:01] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:34:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.169.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:35:36] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:35:36] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:35:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:38:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:38:20] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:38:20] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:40:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:40:31] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:40:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:40:37] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:40:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:40:37] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:44:09] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:44:09] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:44:09] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:45:18] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:45:18] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:45:18] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:04] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:04] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:22] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:22] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:46:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:50:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:50:46] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:50:46] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:07] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:07] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:07] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:25] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:25] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:47] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:52:47] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:53:36] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:53:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:53:36] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:54:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:54:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:54:03] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:55:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:55:28] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 16:55:28] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:00:12] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:00:12] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:00:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:01:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:01:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:01:57] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:03:46] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:03:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:03:46] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
