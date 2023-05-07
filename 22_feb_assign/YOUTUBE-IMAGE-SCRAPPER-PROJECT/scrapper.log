@@ -596,3 +596,72 @@ INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignment
 INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
 INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:33] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 17:55:47] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hp\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:25] "[35m[1mGET /Thumbnail HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:30] "GET /download HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:32] "[35m[1mGET /Video%20url HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:32] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:32] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:33] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:42] "[35m[1mGET /Thumbnail HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:42] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:42] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:42] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:05:43] "[36mGET /Thumbnail?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.74.9:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:42] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:42] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:54] "[35m[1mGET /Video%20url HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:54] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:54] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:07:55] "[36mGET /Video%20url?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\hp\\jupyter notebook\\Assignments\\22_feb_assign\\YOUTUBE-IMAGE-SCRAPPER-PROJECT\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 666-464-152
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:08:55] "GET /Video%20url HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:09:02] "GET /Thumbnail HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:09:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2023 18:09:02] "[36mGET /static/css/example.jpg HTTP/1.1[0m" 304 -

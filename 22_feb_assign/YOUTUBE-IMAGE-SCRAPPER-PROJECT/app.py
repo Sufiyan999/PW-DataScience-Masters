@@ -16,6 +16,7 @@ logging.basicConfig(filename=os.path.join(BASE_DIR, "scrapper.log") , level=logg
 app = Flask(__name__)
 
 print("Youtube Scrap")
+
 @app.route("/", methods = ['GET'])
 def homepage():
     return render_template("index.html")
@@ -51,8 +52,6 @@ def index():
                 ['S No', 'Video url', 'Thumbnail', 'Title', 'Views', 'Published Time']
             ]
             
-            print(videoids)
-            # if len(videoids) > 0:
             for i in range(20):
                 try:
                     temp = []
@@ -78,8 +77,6 @@ def index():
                 return render_template('result.html', report_list=report_list, channel=query)
             
         except Exception as e:
-            print(e.__class__)
-            print(type(e))
             logging.info(e)
             query = request.form['content']
             return f'something is wrong with {query}' +'\n\n' f'{str(e)}' 
@@ -87,9 +84,11 @@ def index():
         return render_template('index.html')
 
 
+
+
 @app.route('/download')
 def download_file():
-    filename = 'temp.csv'
+    filename = 'scrapped_data.csv'
     return send_file(filename, as_attachment=True)
 
 
@@ -100,48 +99,47 @@ def save_to_csv_file(report_list):
                 for row in report_list:
                     try:
                         csvwriter.writerow(row)
-                    except:                # UnicodeEncodeError ,because of these 🔥🔥 in the title row[3]    
-                        # print(row[3])  
-                        row[3] = row[3].encode('utf-8')
-                        # print(row[3])  
+                    except:                                         # UnicodeEncodeError ,because of these 🔥🔥 in the title row[3]     
+                        row[3] = row[3].encode('utf-8') 
                         csvwriter.writerow(row)
                         continue
 
 def get_from_csv_file():
-            temp = []
+            report_list = []
             file_name = 'scrapped_data.csv' 
             file_name = os.path.join(BASE_DIR,  file_name)
             with open(file_name, 'r') as csvfile:
                 reader = csv.reader(csvfile)
                 for row in reader:
-                  temp.append(row)                  
-            return temp     
+                  report_list.append(row)                  
+            return report_list    
 
 @app.route('/Thumbnail',methods = ['POST' , 'GET'])
 def show_thumbs():
-    temp = get_from_csv_file()[1:]
-    if not bool(temp):
+    report_list = get_from_csv_file()[1:]
+    if not bool(report_list):
         return "NO IMAGES WERE FOUND"
     
     img_urls = [] 
-    for row in temp:
+    for row in report_list:
        try: 
              img_urls.append(row[2]) 
        except:
-           continue 
-    print(img_urls)    
+           continue  
     return render_template('imgs.html', img_urls=img_urls)
 
 @app.route('/Video url',methods = ['POST' , 'GET'])
 def show_urls():
-    temp = get_from_csv_file()[1:]
+    report_list = get_from_csv_file()[1:]
     video_urls = [] 
-    if not bool(temp):
+    if not bool(report_list):
         return "NO URLS WERE FOUND"
-    for row in temp:
-        video_urls.append(row[1])       
-        
-    print(video_urls)    
+    for row in report_list:
+        try: 
+            video_urls.append(row[1])       
+        except:
+           continue  
+  
     return jsonify({"urls": video_urls})
                     
 if __name__ == "__main__":
