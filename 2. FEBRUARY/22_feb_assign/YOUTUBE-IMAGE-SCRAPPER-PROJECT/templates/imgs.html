@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<title>Image Gallery</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		
+		.container img {
+			width: 300px;
+			height: auto;
+			margin: 10px;
+			object-fit: contain;
+		}
+		
+		@media only screen and (max-width: 600px) {
+			.container img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	</style>
+{% endblock %}
+{% block body %}
+	<div class="container">
+		<img src="{{ url_for('static', filename='css/example.jpg')}}" alt="Image"></img>
+		{% for img_url in img_urls %}
+		<a href='{{img_url}}'><img src="{{img_url}}" alt="{{img_url}}"></img></a>
+		{% endfor %}
+	</div>
+{% endblock %}
+</html>

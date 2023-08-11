@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+ <style>
+  .image_preview
+  {
+   display:flex;
+   bordr_radius:20px;
+   height:50px;
+   width:50px;
+  }
+  .yt-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+     
+  #footer {
+    width: 100%;
+    background-color: #ccc;
+    padding: 10px;    
+}
+ </style>
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+    <div class="header">
+      <div><a href="https://www.youtube.com/@{{ channel }}">
+        <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+      </a></div>
+      <span>{{ channel }}</span>
+      <a href="/download" download><button class="btn">Download File</button></a>
+    </div>
+    <table cellspacing="0">
+        {% for review in report_list %}
+      <tr style='width:30'>
+          <td style='width:30'><a href='{{review[1]}}' >{{review[1]}}</a></td>
+          <td style='width:30'><a href='{{review[2]}}'><img class="image_preview" src="{{review[2]}}" alt="" onerror="this.style.display='none'"></img></a><a href='{{review[2]}}'>{{review[2]}}</a></td>
+          <td style='width:30'>{{review[3]}}</td>
+          <td style='width:30'>{{review[4]}}</td>
+          <td style='width:30'>{{review[5]}}</td>
+          <td style='width:30'>{{review[6]}}</td>
+      </tr>
+      
+      {% endfor %}
+    </table>
+</div>
+<div>&#xf16a;<div>
+  <footer id="footer">Copyright ©   <br> >> <a href="https://www.linkedin.com/in/sufiyan-mohammad-04a114264"> https://www.linkedin.com/in/sufiyan-mohammad-04a114264 </a>  <br> >> <a href="https://github.com/Sufiyan999/"> https://github.com/Sufiyan999/ </a>  </footer>
+</body>
+
+</html>
