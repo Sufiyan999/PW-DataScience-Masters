@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content='HTML5 Template Design' name='description' />
+<meta content='width=device-width, initial-scale=1' name='viewport' />
+<title>Search Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<style>
+    * {
+        margin: 0px;
+        padding: 0px 
+   }
+   body{
+    
+    background-color: #f9f9f9;
+   }
+    #main-container {
+        z-index:100;
+        width: 100%;
+        margin: 0px auto;
+   }
+    #header {
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        color: black;
+     border-bottom:1px solid #f9f9f9;
+   }
+    #header:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+   }
+    #header section {
+        float: left;     
+        font-size: 18px;
+        font-weight: bold;
+     margin-right:22px;
+     
+   }
+   input{
+      display: block;            
+      min-width: 100%;
+      height: 6px;
+      padding: 10px;
+      border: solid 1px #BDC7D8;
+      width:300px;
+      margin-left:22px;
+   }
+   
+    #main-body-container {
+        padding: 10px;
+        margin: 0px auto; 
+     width:80%;
+   }
+    #main-body-container:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+   }
+   
+    #main-article {
+        float: left;
+        width: 60%;
+        min-height: 450px;     
+     margin-top:10px;
+   }
+    #sidebar {
+        float: left;
+        width: 28%;
+        min-height: 450px;     
+     margin-top:10px;
+     margin-left:20px;
+   }
+   #slider-article{
+    
+    margin-bottom:10px;
+   }
+   
+    #footer {
+        width: 100%;
+        background-color: #ccc;
+        padding: 10px;
+        
+   }
+</style>
+{% endblock %}
+
+{% block body %}
+<div id="main-container">
+    <div id="header">
+ 
+
+ <section style="font-size:24px;" ><a href="https://www.youtube.com/" style="text-decoration: none; color: #c4302b; font-weight: bold;">
+    <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+  Youtube  </a></section>
+
+</section class="form">
+    <form action="/review" method="POST">
+        <input type="text" name="content" id="content" placeholder="PW-Foundation">
+        <input type="submit" value="Search" style="padding: 5px 5px; background-color: #e9e9e9; border: none; border-radius: 5px; cursor: pointer;">
+    </form>
+    <br>
+
+</section>
+</div> 
+</div>
+
+    
+    
+    <section id="main-body-container"  >
+ 
+      <article id="main-article" >  
+    <section style="text-align: center;width:100%;"> <iframe frameborder="0" style="min-width:99%;min-height:400px;"  src="https://www.youtube.com/embed/94DqCs8qtlI" ></iframe> </section> 
+ <h1> Social Networking Project     </h1>
+ <section> I have created Small Project based on Social networking site. You can check out the demo at www.wayplus.url.ph . Also you can share your Thoughts on this.
+ This PHP project is an example of functionality of dynamic pages using php source code.Throughout this project JavaScript is used for validations be it simple one or complex.Facebook is a software for social networking media.
+ Its a platform for sharing owr day-to-day life and thoughts by using electronic media.A totally new concept that is way ahead from the simple mail exchange andIM’s facilitated by Yahoomail and other mail servers. Now a days it’s widely used for sharingsome memorable movements of our life as-well-as bussiness growth by photo shairing. 
+ The main types of social networking services contain category places(such as former school-year or classmates), means to connect with friends (usually with self-description pages), and a recommendation system linked to trust. One can categorize social-network services into three types:
+ socializing social network services used primarily for socializing with existing friends (e.g., Facebook)
+ networking social network services used primarily for non-social interpersonal communication (e.g., LinkedIn, a career- and employment-oriented site)
+ social navigation social network services used primarily for helping users to find specific information or resources (e.g., Goodreads for books)
+ </section>  
+      </article>
+
+      <aside id='sidebar' >
+
+  <article id="slider-article">
+  <section > <iframe style="min-width:20%;min-height:40px;" frameborder="0"  src="https://www.youtube.com/embed/PsaRb8ga3Y0" style=""></iframe> </section>  
+  <h1> Submit Checkbox values in Form with JQuery/PHP  </h1>
+  </article>
+ 
+  <article id="slider-article">
+  <section > <iframe style="min-width:20%;min-height:40px;" frameborder="0"  src="https://www.youtube.com/embed/94DqCs8qtlI" style=""></iframe> </section>  
+  <h1> Social Networking Project in PHP </h1>
+  </article> 
+ 
+  <article id="slider-article">
+  <section > <iframe style="min-width:20%;min-height:40px;" frameborder="0"  src="https://www.youtube.com/embed/qZXdPNW477o" style=""></iframe> </section>  
+  <h1> Using Google reCAPTCHA with PHP - Are you a Robot?  </h1>
+  </article> 
+       
+  <article id="slider-article">
+  <section > <iframe style="min-width:20%;min-height:40px;" frameborder="0"  src="https://www.youtube.com/embed/4Gfk-Jt35gk" style=""></iframe> </section>  
+  <h1> Htaccess File Tutorial and Tips </h1>
+  </article>  
+
+      </aside>
+
+    </section>
+    <div class="content">
+
+        <div class="form">
+            <form action="/review" method="POST">
+                <input type="text" name="content" id="content" placeholder="PW-Foundation">
+                <br>
+                <br>
+                <input type="submit" value="Search" style="padding: 10px 20px; background-color: #e9e9e9; border: none; border-radius: 5px; cursor: pointer;">
+            </form>
+        </div>
+    </div>
+ 
+    <footer id="footer">Copyright ©   <br> >> <a href="https://www.linkedin.com/in/sufiyan-mohammad-04a114264"> https://www.linkedin.com/in/sufiyan-mohammad-04a114264 </a>  <br> >> <a href="https://github.com/Sufiyan999/"> https://github.com/Sufiyan999/ </a>  </footer>
+  </div>
+<br>
+
+
+
+
+</div>
+{% endblock %}

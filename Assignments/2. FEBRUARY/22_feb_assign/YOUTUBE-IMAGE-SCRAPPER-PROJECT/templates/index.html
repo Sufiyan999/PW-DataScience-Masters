@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<style>
+    #main-container {
+        z-index:100;
+        width: 100%;
+        margin: 0px auto;
+   }
+    #header {
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        color: black;
+     border-bottom:1px solid #f9f9f9;
+   }
+    .content {
+        text-align: center;
+        padding: 12;
+    }
+
+    h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<div id="main-container">
+    <div id="header" class="content">
+ 
+
+ <section style="font-size:24px; text-align: center;" ><a href="https://www.youtube.com/" style="text-decoration: none; color: #c4302b; font-weight: bold;">
+    <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+  Youtube  </a></section>
+<br>
+</section class="form">
+    <form action="/review" method="POST">
+        <input type="text" name="content" id="content" placeholder="PW-Foundation">
+        <input type="submit" value="Search" style="    text-decoration-color: wheat; font-style: italic;color: black; padding: 5px 5px; background-color: #e9e9e9; border: none; border-radius: 5px; cursor: pointer;">
+    </form>
+    <br>
+
+</section>
+</div> 
+</div>
+
+{% endblock %}
