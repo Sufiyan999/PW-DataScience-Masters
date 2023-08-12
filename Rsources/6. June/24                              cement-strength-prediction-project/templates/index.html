@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Exam Performance Prediction</title>
+    <link rel="stylesheet" href="../static/css/index_style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://ineuron.ai"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAAAlCAMAAABBJDpuAAAAVFBMVEX/fgD/iQA7NzIyMjMnNYInNYEnNYInNYEzMzInNYQnNYETJzsnNYIwN1wxMjNoTis4O1YrNm0xOF47PE9DP0dEQEVpTVkAJJ4nNYEOLJHJbiAzMzOmmmHRAAAAFnRSTlOh/vu+986oen9fP2UqEzQkFAIDAAEEILVBJQAAA3FJREFUWMPNmO2WoyAMQG0VBARtdVRs3/89NwkgaF1rd2aOm18tIrnkgwSz7n+R7LcV1ELkeS7E7VySRlyfQXJhTiO55c+liP4cEuH1X8E7gaV+S3Jv2zYZ/Vr+/Sdx2vP6doc/fSPcf/GOpLSFVXFUW8t+giRP47TOd60yk1hbxIhSP0ACKPWrvw7YBIT/lcQY84G3Wk17ugWQfg5UsQJpjflKSLQi7xTWyk0SXTJ4VnB5D1yccxmp4Z+mX5KGNS+SPXVNll0ulyxL0wYmloBB6zL/MpCoAgjAJiUM6w0SboMwPUdRogvNKcNM3smFdRvEcJJkKcflQa+X0pNIfBGW0zKqjyQtw4VLKQlI7ZLgdrRNSZDjMQx2GB4pCkxkCrfGWUTJ0Egan6muCHgJCUwtnCk0mrJ9Q8K5LUqtdSfynkAedhynaRqngVDaXLiJEAzkFkM71IuIlWRYtSQpbXSZDvQ7JPCei9brs+oaABkn74LRIkpFaVxGnzjvIxTYREOoEwn5r01JTDRTcO87Eu3zNUeTPKZpjrIRrNIDCjzALbPk7LJMIokOEQu2K7yKQAKvFDF9pVe0R+LGb7h1MMkw2ijjA/1zhSfSphvEAChXJEhAqwYStIJWXnTpvbdH4hTUwSQ2JRmQpILDLYbB7J41SYiLcNozu5Z3JMo7RxBJahI7WSRByCMkqJt9hySESbVJcvmARJGFExJmdBSl2oM2+T4JLWfgaGFptizlPUm1FydHSdyZ7UnS4ySph2kS0kJrkvr5NJg7dnrJnfxgxPozRPGtkyPNOxtaiDvbIAF9L+5B5zTI2BwlwXmM+U3zReav3o0F8oUEFFZ42McDZYomOUziFmezgWyo251Uc1nyKJol7URCEvIYUEbHYaEGQi9C9egwCdVfHwiaajfjKMUcHcRacCylhWJbJDfq47EEDhYqoIWjHnwDXZPpPiChPQelLU+Cbm4w50FmYgkvFwpiWwCC/Um/SLcNElOC9RVj6qWpCiEMvRUK4zLpdKmPw8rVldy/qxjn60wLrVLWJIPLiZJRr3fsvnOHPvare+lB93tb37T20D82jqOt+zNuXhuNvNhp7X+PpHb3rvV9R5xjE2SpyCN9ffQO+GtWIZr5Xnytz4gTMIRYfys47/uJEXny/aQ/95tSUwmU+uRvSp/IHzQqZYpYrQmxAAAAAElFTkSuQmCC" /></a>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <form action="/predict" method="post">
+                    <h1>
+                        <legend>
+                            <b> Cement Strength Prediction
+                                </b> </legend>
+                    </h1>
+                    
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Cement (component 1)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="cement"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Blast Furnace Slag (component 2)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="blast_furnace_slag"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Fly Ash (component 3)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="fly_ash"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Water  (component 4)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="water"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Superplasticizer (component 5)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="superplasticizer"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Coarse Aggregate  (component 6)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="coarse_aggregate"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Fine Aggregate (component 7)(kg in a m^3 mixture) </b></label>
+                            <input class="form-control" type="number" name="fine_aggregate"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Age (day) </b></label>
+                            <input class="form-control" type="number" name="age"
+                            />
+                        </div>
+
+
+                        <div class="mb-3">
+                            
+                            <label class="form-label"> <b>Concrete compressive strength(MPa, megapascals)  </b></label>
+                            <input class="form-control" type="number" name="concrete_compressive_strength"
+                            />
+                        </div>
+
+
+                    
+                    <div class="mb-3">
+                        <input class="btn btn-primary" type="submit" value="Predict the cement strength" required />
+                    </div>
+                </form>
+            </div>
+            <div class="text-center text-black">
+                <h2>Prediction : {{context}} </h2>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(".input").focus(function () {
+            $(this).parent().addClass("focus");
+        }).blur(function () {
+            if ($(this).val() === '') {
+                $(this).parent().removeClass("focus");
+            }
+        })
+    </script>
+</body>
+
+</html>

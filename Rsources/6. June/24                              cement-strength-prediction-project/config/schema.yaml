@@ -1,0 +1,30 @@
+NumberofColumns: 8
+ColumnNames:
+  Cement (component 1)(kg in a m^3 mixture)              : float64
+  Blast Furnace Slag (component 2)(kg in a m^3 mixture)  : float64
+  Fly Ash (component 3)(kg in a m^3 mixture)             : float64
+  Water  (component 4)(kg in a m^3 mixture)              : float64
+  Superplasticizer (component 5)(kg in a m^3 mixture)    : float64
+  Coarse Aggregate  (component 6)(kg in a m^3 mixture)   : float64
+  Fine Aggregate (component 7)(kg in a m^3 mixture)      : float64
+  Age (day)                                              : int64  
+  Concrete compressive strength(MPa, megapascals)        : float64
+
+Numerical_columns:
+  - writing_score
+  - reading_score
+
+Categorical_columns:
+  - gender
+  - race_ethnicity
+  - parental_level_of_education
+  - lunch
+  - test_preparation_course
+
+target_column: 'Concrete compressive strength(MPa, megapascals) '
+
+outlier_columns:
+  - 'Water  (component 4)(kg in a m^3 mixture)'
+  - 'Coarse Aggregate  (component 6)(kg in a m^3 mixture)'
+  - 'Fine Aggregate (component 7)(kg in a m^3 mixture)'
+  - 'Age (day)'

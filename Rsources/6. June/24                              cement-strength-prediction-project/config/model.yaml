@@ -1,0 +1,60 @@
+model_selection:
+  model:
+    Linear Regression:
+      search_param_grid:
+        n_neighbors:
+          - 3
+          - 5
+          - 7
+        normalize:
+          - True
+          - False
+    Ridge Regression:
+      search_param_grid:
+        n_neighbors:
+          - 3
+          - 5
+          - 7
+        alpha:
+          - 0.01
+          - 0.1
+          - 1
+          - 10
+    Lasso Regression:
+      search_param_grid:
+        n_neighbors:
+          - 3
+          - 5
+          - 7
+        alpha:
+          - 0.001
+          - 0.01
+          - 0.1
+          - 1
+          - 10
+          - 100
+          - 1000
+    Random Forest Regression:
+      search_param_grid:
+        n_estimators:
+          - 50
+          - 100
+          - 150
+        max_depth:
+          - 5
+          - 10
+          - 15
+    Gradient Boosting Regression:
+      search_param_grid:
+        n_neighbors:
+          - 3
+          - 5
+          - 7
+        n_estimators:
+          - 50
+          - 100
+          - 150
+        max_depth:
+          - 3
+          - 5
+          - 7

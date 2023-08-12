@@ -1,0 +1,10 @@
+[ 2023-08-01 21:26:47,981 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2023-08-01 21:26:47,981 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-08-01 21:26:49,641 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.73.9:5000
+[ 2023-08-01 21:26:49,641 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-08-01 21:26:49,643 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-01 21:35:29,875 ] 224 werkzeug - INFO -  * Restarting with stat
+[ 2023-08-01 21:36:36,252 ] 224 werkzeug - INFO -  * Restarting with stat

@@ -1,0 +1,5 @@
+[ 2023-08-01 21:35:30,286 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2023-08-01 21:35:30,286 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-08-01 21:35:31,684 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-01 21:35:31,687 ] 224 werkzeug - INFO -  * Debugger PIN: 605-802-619
+[ 2023-08-01 21:36:36,041 ] 224 werkzeug - INFO -  * Detected change in 'D:\\Data Science\\Rsources\\5. May\\17\\sensor2-main\\src\\utils\\main_utils.py', reloading
