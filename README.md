@@ -5,6 +5,24 @@
 
 In this repository, you'll find a collection of assignments, questions, answers, and valuable resources that are part of my Data Science course journey. Whether you're a fellow student or just an enthusiastic learner, you've come to the right place to explore the fascinating world of data science.
 
+## What you'll learn
+
+- Python
+- Statistics
+- Machine learning
+- Deep learning
+- Computer vision
+- Natural language processing
+- Big Data
+- Apache Spark
+- Apache Kafka
+- Data Analytics
+- PowerBI
+- Tableau
+- Databases
+- Data Science Workflow
+- Real Time Data Science Projects
+
 ## What You'll Find Here
 
 - 📚 **Assignments and Questions**: The [Questions](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Questions)  folder contains thought-provoking assignment questions designed to challenge and enhance your understanding of data science concepts.
@@ -108,10 +126,10 @@ Follow these steps to set up your environment and install the required packages:
    Congratulations! You've successfully set up your environment and installed the required packages. You're all set to explore and learn.
 
 
-# PW DataScience Journy 
+## PW DataScience Journy 
 
 
-### What you'll learn
+<!-- ### What you'll learn
 
 - Python
 - Statistics
@@ -127,7 +145,7 @@ Follow these steps to set up your environment and install the required packages:
 - Tableau
 - Databases
 - Data Science Workflow
-- Real Time Data Science Projects
+- Real Time Data Science Projects -->
 
 
 
