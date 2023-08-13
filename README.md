@@ -15,11 +15,11 @@ In this repository, you'll find a collection of assignments, questions, answers,
 
 
    - **Data Science Interview Question Bank (Day 1-30)**:
-       Dive into the comprehensive collection of data science interview questions and answers. Explore the [Data Science Interview Question Bank Day 1-30 iNeuron](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Resources/Data Science Interview Question Bank Day 1-30 iNeuron)  folder to find day-wise questions, answers, and beautifully explained solutions. Sharpen your knowledge and get ready for successful data science interviews.
+       Dive into the comprehensive collection of data science interview questions and answers. Explore the [Data Science Interview Question Bank Day 1-30 iNeuron](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Resources/Data%20Science%20Interview%20Question%20Bank%20Day%201-30%20iNeuron)  folder to find day-wise questions, answers, and beautifully explained solutions. Sharpen your knowledge and get ready for successful data science interviews.
 
        
 
-- 🎁 **Bonus: Python Practice Sets**: As an added treat, I've included a special bonus for you! The [Practice Sets](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/practice sets) folder offers a variety of engaging practice exercises. Strengthen your grasp of Python programming while tackling real-world scenarios. Consider these practice sets your extra dose of learning and fun!
+- 🎁 **Bonus: Python Practice Sets**: As an added treat, I've included a special bonus for you! The [Practice Sets](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/practice%20sets) folder offers a variety of engaging practice exercises. Strengthen your grasp of Python programming while tackling real-world scenarios. Consider these practice sets your extra dose of learning and fun!
 
 ## How to Get Started
 
@@ -45,7 +45,7 @@ In this repository, you'll find a collection of assignments, questions, answers,
 
 3. **Navigating Resources**: If you're interested in exploring supplementary materials, navigate to the specific month's folder of your choice. There, you'll find a trove of knowledge curated by the course instructors.
 
-4. **Practice Python (Bonus)**: Ready to take on an extra challenge? The [Practice Sets](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Practice Sets) folder is your playground for refining your Python skills.
+4. **Practice Python (Bonus)**: Ready to take on an extra challenge? The [Practice Sets](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/practice%20sets) folder is your playground for refining your Python skills.
 
 
 
