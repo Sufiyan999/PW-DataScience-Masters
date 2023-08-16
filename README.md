@@ -1,14 +1,14 @@
 
-# Welcome to My Data Science Course Assignment Repository
+# Welcome To My Data Science Course Repository
 
-🌟 Welcome To My Data Science Course  Repository! 🌟
+🌟 Welcome to My Data Science Course Assignment Repository! 🌟
 
 In this repository,you'll discover a rich assortment of assignments, questions, answers, and invaluable resources that have accompanied me throughout my captivating journey in the realm of Data Science . Whether you're a fellow student seeking guidance or an enthusiastic learner eager to delve into the intricacies of data science, you've landed at the perfect destination.
 
-But that's not all – [My repository](https://github.com/Sufiyan999/PW-DataScience-Masters.git) is just one among many. As you explore the contents of this readme.md file, you'll come across links to a variety of other [repositories](https://github.com/Sufiyan999/PW-DataScience-Masters#repositories-for-data-scince) akin to mine. These repositories, curated by passionate individuals like me, offer a plethora of diverse insights, materials, and perspectives on the fascinating world of data science.
+But that's not all – My [repo](https://github.com/Sufiyan999/PW-DataScience-Masters.git) is just one among many. As you explore the contents of this readme.md file, you'll come across links to a variety of other [repositories](https://github.com/Sufiyan999/PW-DataScience-Masters#repositories-for-data-scince) akin to mine. These repositories, curated by passionate individuals like me, offer a plethora of diverse insights, materials, and perspectives on the fascinating world of data science.
 
 
-An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-important-message-for-pw-skills---data-science-masters-and-full-stack-data-science-pro-batch-students) for PW Skills and Ineuron - Data Science Masters and Full Stack Data Science Pro Batch Students , know the [importance of colbrative learning](https://github.com/Sufiyan999/PW-DataScience-Masters#the-importance-of-collaborative-learning-and-resource-sharing-for-students-in-data-science), and boost this repo by [adding](https://github.com/Sufiyan999/PW-DataScience-Masters#how-to-contribute) your repo's links in this Readme.
+An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-important-message-for-pw-skills---data-science-masters-and-full-stack-data-science-pro-batch-students) for PW Skills and Ineuron - Data Science Masters and Full Stack Data Science Pro Batch Students , know the [importance of colbrative learning](https://github.com/Sufiyan999/PW-DataScience-Masters#the-importance-of-collaborative-learning-and-resource-sharing-for-students-in-data-science), and boost this repo by [adding](https://github.com/Sufiyan999/PW-DataScience-Masters#how-to-contribute) your repo's links in this [`Readme`](https://github.com/Sufiyan999/PW-DataScience-Masters/blob/master/README.md).
 
 ## What you'll learn
 
