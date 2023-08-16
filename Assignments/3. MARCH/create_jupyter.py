@@ -58,7 +58,12 @@ def main():
 
         # Add markdown cells with numbers 1 to 10 and empty code cells in between
         for num in range(1, k+1):
-            add_markdown_cell(notebook, f"## Ans {str(num)}")
+            
+            ans =  f"<a id=\"{num}\"></a> \n # <p style=\"padding:10px;background-color: #00004d ;margin:10;color: white ;font-family:newtimeroman;font-size:100%;text-align:center;border-radius: 10px 10px ;overflow:hidden;font-weight:50\">Ans {str(num)} </p> "           
+         
+            # add_markdown_cell(notebook, f"## Ans {str(num)}")
+            
+            add_markdown_cell(notebook, ans)
             # add_markdown_cell(notebook, '')
             notebook.cells.append(nbformat.v4.new_code_cell(''))
 
