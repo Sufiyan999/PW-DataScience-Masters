@@ -5,11 +5,10 @@
 
 In this repository,you'll discover a rich assortment of assignments, questions, answers, and invaluable resources that have accompanied me throughout my captivating journey in the realm of Data Science . Whether you're a fellow student seeking guidance or an enthusiastic learner eager to delve into the intricacies of data science, you've landed at the perfect destination.
 
-But that's not all – [My repository](https://github.com/Sufiyan999/PW-DataScience-Masters.git) is just one among many. As you explore the contents of this readme.md file, you'll come across [links](https://github.com/Sufiyan999/PW-DataScience-Masters#an-important-message-for-pw-skills---data-science-masters-and-full-stack-data-science-pro-batch-students) to a variety of other [repositories](https://github.com/Sufiyan999/PW-DataScience-Masters#repositories-for-data-scince-masters-impact-batch-10-and-20) akin to mine. These repositories, curated by passionate individuals like me, offer a plethora of diverse insights, materials, and perspectives on the fascinating world of data science.
+But that's not all – [My repository](https://github.com/Sufiyan999/PW-DataScience-Masters.git) is just one among many. As you explore the contents of this readme.md file, you'll come across links to a variety of other [repositories](https://github.com/Sufiyan999/PW-DataScience-Masters#repositories-for-data-scince) akin to mine. These repositories, curated by passionate individuals like me, offer a plethora of diverse insights, materials, and perspectives on the fascinating world of data science.
 
 
-An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-important-message-for-pw-skills---data-science-masters-and-full-stack-data-science-pro-batch-students) for PW Skills and Ineuron - Data Science Masters and Full Stack Data Science Pro Batch Students ,
-
+An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-important-message-for-pw-skills---data-science-masters-and-full-stack-data-science-pro-batch-students) for PW Skills and Ineuron - Data Science Masters and Full Stack Data Science Pro Batch Students , know the [importance of colbrative learning](https://github.com/Sufiyan999/PW-DataScience-Masters#the-importance-of-collaborative-learning-and-resource-sharing-for-students-in-data-science), and boost this repo by [adding](https://github.com/Sufiyan999/PW-DataScience-Masters#how-to-contribute) your repo's links in this Readme.
 
 ## What you'll learn
 
@@ -428,28 +427,17 @@ In conclusion, collaborative learning and resource sharing are not only benefici
 
 So, without further ado, let's embark on this enlightening voyage of knowledge and discovery. Dive into the vast expanse of data science resources that lie before you, and don't forget to check out the list of other exciting repositories that await your exploration.
 
-### Repositories for Data Scince Masters Impact Batch 1.0 and 2.0
 
-Explore these repositories for additional resources and materials related to the Data Scince Masters:
+### Repositories for Data Scince
 
 - [Your user name on github ](https://github.com/yourusername/repo_you_want_to_share)     
 - [XYZ Course Example Code](https://github.com/yourusername/xyz-course-examples)
 - []()
 - []()
-...
-
-
-
-### Repositories for Full Stack Data Science Pro Batch
-
-Explore these repositories for additional resources and materials related to the  Full Stack Data Science Pro:
-
-- [Your user name on github ](https://github.com/yourusername/repo_you_want_to_share)
-- [XYZ Course Example Code](https://github.com/yourusername/xyz-course-examples)
-- [XYZ Course Example Code](https://github.com/yourusername/xyz-course-examples)
 - []()
 - []()
 ...
+
 
 ### Project repo's
 
