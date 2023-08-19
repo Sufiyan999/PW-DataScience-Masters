@@ -20,6 +20,7 @@
 # print(f"Jupyter Notebook '{file_path}' created with number cells.")
 
 import nbformat
+
 def remove_space(input_string,space = " "):
     
     temp = input_string
@@ -49,7 +50,7 @@ def main():
         # Create a new Jupyter Notebook
         notebook = nbformat.v4.new_notebook()
 
-        k = int(input("ENTER No of Ans : ")) 
+        k = int(input("ENTER No. Of Ans : ")) 
         
         # Define a function to add markdown cells
         def add_markdown_cell(notebook, content):
@@ -65,8 +66,14 @@ def main():
             
             add_markdown_cell(notebook, ans)
             # add_markdown_cell(notebook, '')
-            notebook.cells.append(nbformat.v4.new_code_cell(''))
+            for i in range(2):
+                notebook.cells.append(nbformat.v4.new_code_cell(''))
 
+        end =  f"<a id=\"{k+2}\"></a> \n # <p style=\"padding:10px;background-color: #01DFD7 ;margin:10;color: white ;font-family:newtimeroman;font-size:100%;text-align:center;border-radius: 10px 10px ;overflow:hidden;font-weight:50\">END</p> "           
+        add_markdown_cell(notebook, end)
+            # add_markdown_cell(notebook, '')
+        for i in range(5):
+                notebook.cells.append(nbformat.v4.new_code_cell(''))
         # Save the notebook to a fil
         
         with open(file_path, 'w') as f:
