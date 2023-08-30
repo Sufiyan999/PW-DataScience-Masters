@@ -39,7 +39,8 @@ An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-i
    - **Data Science Interview Question Bank (Day 1-30)**:
        Dive into the comprehensive collection of data science interview questions and answers. Explore the [Data Science Interview Question Bank Day 1-30 iNeuron](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Resources/Data%20Science%20Interview%20Question%20Bank%20Day%201-30%20iNeuron) in [Resources](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Resources)  to find day-wise questions, answers, and beautifully explained solutions. Sharpen your knowledge and get ready for successful data science interviews.
 
-       
+- 🧠 **Projects**:
+Explore the [Projects](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Projects) folder to discover a showcase of data science projects that I've completed as part of my course. Each project demonstrates practical applications of data science concepts, methodologies, and techniques. Feel free to explore the projects, compare your approaches, and gain insights into real-world data science scenarios.       
 
 - 🎁 **Bonus: Python Practice Sets**: As an added treat, I've included a special bonus for you! The [Practice Sets](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/practice%20sets)  offers a variety of engaging practice exercises. Strengthen your grasp of Python programming while tackling real-world scenarios. Consider these practice sets your extra dose of learning and fun!
 
