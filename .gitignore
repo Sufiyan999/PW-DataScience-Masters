@@ -1,7 +1,8 @@
 *.lock
 .vscode
 An Extra/
-Datasets/
-*.py 
+Datasets/ 
 Projects/
+*.py
 *.exe 
+*.cpp
