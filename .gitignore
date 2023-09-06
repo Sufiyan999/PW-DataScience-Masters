@@ -2,4 +2,5 @@
 .vscode
 An Extra/
 Datasets/
-*.py
+*.py 
+Projects/
