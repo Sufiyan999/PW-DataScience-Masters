@@ -1,0 +1,18 @@
+-f https://download.pytorch.org/whl/lts/1.8/torch_lts.html
+opencv-python
+numpy
+flask
+pillow
+requests==2.22.0
+flask-cors
+gunicorn
+torch==1.8.2+cpu
+torchvision==0.9.2+cpu
+#git+https://github.com/facebookresearch/detectron2.git
+
+
+
+## Use Python 3.8
+
+
+
