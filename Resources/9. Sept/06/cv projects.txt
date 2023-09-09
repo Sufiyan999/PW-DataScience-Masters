@@ -1,0 +1,41 @@
+1. Object Tracking Project 
+
+    - Code: https://drive.google.com/file/d/11epMS84qEDMWx13AoQFn7I1sKs_TBsSZ/view?usp=sharing
+
+    - Video Lecture: https://learn.ineuron.ai/lesson/17th-May-Live-Class-Object-Tracking-Using-Yolov5---DeepSort/646536c14562920c982a8cf3/course/Full-Stack-Data-Science-Bootcamp/6248124a006e09832559f938#
+
+
+2. Image Classification with SOTA CNNs:
+   
+   - Code: https://github.com/entbappy/cnnClassifier
+
+   - Video Lecture: https://youtube.com/playlist?list=PLkz_y24mlSJZtxpM7dkfiOYxs6PZXHt0_&si=e_OIdFbuNKEBLPgR
+
+
+3. Image to Text using OCRs:
+    
+      - Code: https://github.com/entbappy/Car-Number-Plates-Detection
+
+      - Video Lecture: https://youtu.be/ltpnWBBT7NI?si=AYO8iBJE5ZTnX1tE
+
+
+4. Vision based Attendance System:
+    
+      - Code: https://drive.google.com/file/d/1cBuEDN4Ox09UScYiRY5Y_ilsa08CUroz/view
+
+      - Video Lecture: https://learn.ineuron.ai/lesson/Project-Demo/6248124b006e0986695a0131/course/Full-Stack-Data-Science-Bootcamp/6248124a006e09832559f938
+
+
+
+5. Sign Language Detection:
+    
+      - Code: https://github.com/entbappy/End-to-end-Sign-Language-Detection
+
+      - Video Lecture: https://learn.ineuron.ai/lesson/15th-April-Live-Class-End-to-end-Object-Detectection-project-implementation-part-1/643af106456292e7442954be/course/Full-Stack-Data-Science-Bootcamp/6248124a006e09832559f938
+
+
+6. Shredder Systems:
+    
+      - Code: https://drive.google.com/file/d/15QiKAEryfRJoNa4c85vB7VZlh5KdBLE5/view
+
+      - Video Lecture: https://learn.ineuron.ai/lesson/Introduction-to-Shredder-Systems/6248124b006e09bab65a01af/course/Full-Stack-Data-Science-Bootcamp/6248124a006e09832559f938
