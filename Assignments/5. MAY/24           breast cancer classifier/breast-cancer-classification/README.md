@@ -1,7 +1,7 @@
 
 # Breast Cancer Type Classification with Machine Learning
 
-This project is an end-to-end machine learning application built with Flask and Python to classify breast cancer types using the scikit-learn library. It provides a simple web interface to train machine learning models and make predictions on new data.
+This [project](https://github.com/Sufiyan999/breast-cancer-classification) is an end-to-end machine learning application built with Flask and Python to classify breast cancer types using the scikit-learn library. It provides a simple web interface to train machine learning models and make predictions on new data.
 
 
 ---
