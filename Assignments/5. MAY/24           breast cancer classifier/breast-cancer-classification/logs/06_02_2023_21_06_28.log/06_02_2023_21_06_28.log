@@ -1,0 +1,8 @@
+[ 2023-06-02 21:06:30,089 ] 68 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-02 21:06:30,089 ] 39 root - INFO - Exporting data from mongodb
+[ 2023-06-02 21:06:40,733 ] 48 root - INFO - Saving exported data into feature store file path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts
+[ 2023-06-02 21:06:40,750 ] 73 root - INFO - Got the data from mongodb
+[ 2023-06-02 21:06:40,750 ] 75 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-02 21:06:40,751 ] 57 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-06-02 21:06:40,801 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-02 21:06:40,802 ] 45 root - INFO - Exited the save_object method of MainUtils class

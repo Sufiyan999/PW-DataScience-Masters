@@ -1,0 +1,37 @@
+[ 2023-06-05 10:02:24,893 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-05 10:02:24,900 ] 186 werkzeug - INFO -  * Debugger PIN: 122-254-993
+[ 2023-06-05 10:02:28,437 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:28] "GET / HTTP/1.1" 200 -
+[ 2023-06-05 10:02:32,965 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-05 10:02:32,967 ] 41 root - INFO - Exporting data from mongodb
+[ 2023-06-05 10:02:35,543 ] 50 root - INFO - Saving exported data into feature store file path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts
+[ 2023-06-05 10:02:35,562 ] 75 root - INFO - Got the data from mongodb
+[ 2023-06-05 10:02:35,562 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-05 10:02:35,562 ] 57 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-06-05 10:02:35,607 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-05 10:02:35,610 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-05 10:02:35,610 ] 93 root - INFO - Splitting training and testing input and target feature
+[ 2023-06-05 10:02:35,610 ] 102 root - INFO - Extracting model config file path
+[ 2023-06-05 10:02:40,335 ] 125 root - INFO - Best model found on both training and testing data
+[ 2023-06-05 10:02:40,335 ] 126 root - INFO - Saving model at path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts\model.pkl
+[ 2023-06-05 10:02:40,335 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-05 10:02:40,337 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-05 10:02:40,338 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:40] "GET /train HTTP/1.1" 200 -
+[ 2023-06-05 10:02:46,199 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:46] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-05 10:02:46,228 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:02:46,442 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:46] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-06-05 10:02:50,238 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-05 10:02:50,264 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:50] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:02:50,440 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:50] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:02:50,783 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:50] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:02:51,043 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:02:51] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:12,386 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-05 10:04:12,416 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:12,454 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:12,783 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:13,039 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:13] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:36,915 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-05 10:04:36,951 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:36] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:37,099 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:37,439 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:04:37,685 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:04:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:18,662 ] 186 werkzeug - INFO -  * Detected change in 'c:\\users\\oo_wa\\onedrive\\desktop\\pwskills_project_assignment\\src\\pipeline\\predict_pipeline.py', reloading

@@ -1,0 +1,2 @@
+[ 2023-06-03 13:22:02,884 ] 68 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-03 13:22:02,884 ] 39 root - INFO - Exporting data from mongodb

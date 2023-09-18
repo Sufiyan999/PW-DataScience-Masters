@@ -1,0 +1,9 @@
+[ 2023-06-05 10:06:54,932 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-05 10:06:54,938 ] 186 werkzeug - INFO -  * Debugger PIN: 122-254-993
+[ 2023-06-05 10:06:58,402 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:58] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-05 10:06:58,427 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:58,745 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:58] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-06-05 10:07:03,576 ] 80 root - INFO - Predictions Completed
+[ 2023-06-05 10:07:03,576 ] 33 root - INFO - Prediction completed. Downloading prediction file
+[ 2023-06-05 10:07:03,587 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:07:03] "POST /predict HTTP/1.1" 200 -
+[ 2023-06-05 10:08:46,510 ] 186 werkzeug - INFO -  * Detected change in 'c:\\users\\oo_wa\\onedrive\\desktop\\pwskills_project_assignment\\src\\pipeline\\predict_pipeline.py', reloading

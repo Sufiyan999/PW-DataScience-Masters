@@ -1,0 +1,5 @@
+[ 2023-06-03 13:56:29,006 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-03 13:56:29,007 ] 41 root - INFO - Exporting data from mongodb
+[ 2023-06-03 13:56:31,967 ] 50 root - INFO - Saving exported data into feature store file path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts
+[ 2023-06-03 13:56:31,984 ] 75 root - INFO - Got the data from mongodb
+[ 2023-06-03 13:56:31,985 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class

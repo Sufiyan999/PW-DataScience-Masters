@@ -1,0 +1,21 @@
+[ 2023-09-18 18:18:17,497 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-18 18:18:17,500 ] 186 werkzeug - INFO -  * Debugger PIN: 222-297-648
+[ 2023-09-18 18:18:20,795 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 18:18:20] "GET / HTTP/1.1" 200 -
+[ 2023-09-18 18:18:25,988 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-09-18 18:18:25,988 ] 40 root - INFO - Exporting data from mongodb
+[ 2023-09-18 18:18:33,991 ] 49 root - INFO - Saving exported data into feature store file path: E:\Downloads\repo\pwskills_project_assignment-main\artifacts
+[ 2023-09-18 18:18:34,048 ] 74 root - INFO - Got the data from mongodb
+[ 2023-09-18 18:18:34,048 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-09-18 18:18:34,049 ] 57 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-09-18 18:18:34,103 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-09-18 18:18:34,103 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-09-18 18:18:34,105 ] 93 root - INFO - Splitting training and testing input and target feature
+[ 2023-09-18 18:18:34,106 ] 102 root - INFO - Extracting model config file path
+[ 2023-09-18 18:18:40,446 ] 125 root - INFO - Best model found on both training and testing data
+[ 2023-09-18 18:18:40,446 ] 126 root - INFO - Saving model at path: E:\Downloads\repo\pwskills_project_assignment-main\artifacts\model.pkl
+[ 2023-09-18 18:18:40,446 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-09-18 18:18:40,447 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-09-18 18:18:40,448 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 18:18:40] "GET /train HTTP/1.1" 200 -
+[ 2023-09-18 18:19:16,655 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 18:19:16] "GET /predict HTTP/1.1" 200 -
+[ 2023-09-18 18:19:16,964 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 18:19:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-09-18 18:19:16,977 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 18:19:16] "[33mGET /script.js HTTP/1.1[0m" 404 -

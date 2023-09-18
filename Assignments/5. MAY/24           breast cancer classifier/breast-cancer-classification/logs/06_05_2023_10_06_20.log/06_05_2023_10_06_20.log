@@ -1,0 +1,11 @@
+[ 2023-06-05 10:06:24,888 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-05 10:06:24,897 ] 186 werkzeug - INFO -  * Debugger PIN: 122-254-993
+[ 2023-06-05 10:06:28,700 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:28] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-05 10:06:28,721 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:28,727 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:28] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-06-05 10:06:34,404 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-05 10:06:34,434 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:34,573 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:34,903 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:35,165 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 10:06:35] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 10:06:50,528 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Users\\oo_wa\\OneDrive\\Desktop\\pwskills_project_assignment\\src\\pipeline\\predict_pipeline.py', reloading

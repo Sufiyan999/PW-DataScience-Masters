@@ -1,0 +1,14 @@
+[ 2023-06-04 11:42:42,218 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-04 11:42:42,219 ] 41 root - INFO - Exporting data from mongodb
+[ 2023-06-04 11:42:44,914 ] 50 root - INFO - Saving exported data into feature store file path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts
+[ 2023-06-04 11:42:44,937 ] 75 root - INFO - Got the data from mongodb
+[ 2023-06-04 11:42:44,937 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-04 11:42:44,937 ] 57 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-06-04 11:42:45,040 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-04 11:42:45,042 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-04 11:42:45,043 ] 93 root - INFO - Splitting training and testing input and target feature
+[ 2023-06-04 11:42:45,043 ] 102 root - INFO - Extracting model config file path
+[ 2023-06-04 11:42:49,960 ] 125 root - INFO - Best model found on both training and testing data
+[ 2023-06-04 11:42:49,960 ] 126 root - INFO - Saving model at path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts\model.pkl
+[ 2023-06-04 11:42:49,961 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-04 11:42:49,962 ] 45 root - INFO - Exited the save_object method of MainUtils class

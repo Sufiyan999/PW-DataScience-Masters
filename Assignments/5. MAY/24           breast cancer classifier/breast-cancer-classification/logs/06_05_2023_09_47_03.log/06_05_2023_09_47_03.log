@@ -1,0 +1,28 @@
+[ 2023-06-05 09:47:06,676 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-05 09:47:06,697 ] 186 werkzeug - INFO -  * Debugger PIN: 122-254-993
+[ 2023-06-05 09:47:11,118 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:11] "GET / HTTP/1.1" 200 -
+[ 2023-06-05 09:47:17,090 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-05 09:47:17,090 ] 41 root - INFO - Exporting data from mongodb
+[ 2023-06-05 09:47:19,407 ] 50 root - INFO - Saving exported data into feature store file path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts
+[ 2023-06-05 09:47:19,436 ] 75 root - INFO - Got the data from mongodb
+[ 2023-06-05 09:47:19,436 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-05 09:47:19,436 ] 57 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-06-05 09:47:19,471 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-05 09:47:19,472 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-05 09:47:19,473 ] 93 root - INFO - Splitting training and testing input and target feature
+[ 2023-06-05 09:47:19,474 ] 102 root - INFO - Extracting model config file path
+[ 2023-06-05 09:47:25,417 ] 125 root - INFO - Best model found on both training and testing data
+[ 2023-06-05 09:47:25,418 ] 126 root - INFO - Saving model at path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts\model.pkl
+[ 2023-06-05 09:47:25,418 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-05 09:47:25,421 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-05 09:47:25,422 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:25] "GET /train HTTP/1.1" 200 -
+[ 2023-06-05 09:47:31,388 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:31] "[33mGET /predictr HTTP/1.1[0m" 404 -
+[ 2023-06-05 09:47:33,441 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:33] "GET /predict HTTP/1.1" 200 -
+[ 2023-06-05 09:47:33,469 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 09:47:33,773 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:33] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-06-05 09:47:36,742 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-06-05 09:47:36,769 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:36] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-05 09:47:36,959 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:36] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-05 09:47:37,293 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 09:47:37,529 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/Jun/2023 09:47:37] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-05 09:48:31,265 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Users\\oo_wa\\OneDrive\\Desktop\\pwskills_project_assignment\\src\\pipeline\\predict_pipeline.py', reloading

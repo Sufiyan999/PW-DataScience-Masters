@@ -1,0 +1,19 @@
+[ 2023-06-04 12:03:34,876 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-04 12:03:34,886 ] 186 werkzeug - INFO -  * Debugger PIN: 123-846-427
+[ 2023-06-04 12:03:45,189 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2023 12:03:45] "GET / HTTP/1.1" 200 -
+[ 2023-06-04 12:03:45,417 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2023 12:03:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-06-04 12:03:53,278 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-04 12:03:53,278 ] 41 root - INFO - Exporting data from mongodb
+[ 2023-06-04 12:03:58,163 ] 50 root - INFO - Saving exported data into feature store file path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts
+[ 2023-06-04 12:03:58,195 ] 75 root - INFO - Got the data from mongodb
+[ 2023-06-04 12:03:58,196 ] 77 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-06-04 12:03:58,196 ] 57 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-06-04 12:03:58,283 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-04 12:03:58,293 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-04 12:03:58,294 ] 93 root - INFO - Splitting training and testing input and target feature
+[ 2023-06-04 12:03:58,294 ] 102 root - INFO - Extracting model config file path
+[ 2023-06-04 12:04:04,182 ] 125 root - INFO - Best model found on both training and testing data
+[ 2023-06-04 12:04:04,182 ] 126 root - INFO - Saving model at path: C:\Users\oo_wa\OneDrive\Desktop\pwskills_project_assignment\artifacts\model.pkl
+[ 2023-06-04 12:04:04,183 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-06-04 12:04:04,184 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-06-04 12:04:04,185 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/Jun/2023 12:04:04] "GET /train HTTP/1.1" 200 -

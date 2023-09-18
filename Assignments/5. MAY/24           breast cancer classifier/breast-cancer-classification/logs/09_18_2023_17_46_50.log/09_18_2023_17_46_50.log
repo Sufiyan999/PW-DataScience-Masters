@@ -1,0 +1,25 @@
+[ 2023-09-18 17:46:51,804 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-18 17:46:51,808 ] 186 werkzeug - INFO -  * Debugger PIN: 222-297-648
+[ 2023-09-18 17:47:21,654 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:21] "GET / HTTP/1.1" 200 -
+[ 2023-09-18 17:47:21,732 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-09-18 17:47:37,465 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:37] "GET /predict HTTP/1.1" 200 -
+[ 2023-09-18 17:47:37,778 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:37] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2023-09-18 17:47:37,792 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:37] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-09-18 17:47:43,991 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-09-18 17:47:44,017 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:44] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-09-18 17:47:44,242 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:44] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-09-18 17:47:44,586 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:44] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-09-18 17:47:44,849 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:47:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-18 17:48:29,675 ] 73 root - INFO - Exception Occured in load_object function utils
+[ 2023-09-18 17:48:29,698 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:48:29] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-09-18 17:48:29,707 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:48:29] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-09-18 17:48:30,018 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:48:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-09-18 17:48:30,284 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:48:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-18 17:48:30,347 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:48:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-18 17:49:00,680 ] 70 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-09-18 17:49:00,680 ] 41 root - INFO - Exporting data from mongodb
+[ 2023-09-18 17:49:01,110 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:49:01] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2023-09-18 17:49:01,121 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:49:01] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-09-18 17:49:01,456 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:49:01] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-09-18 17:49:01,808 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:49:01] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-09-18 17:49:02,065 ] 186 werkzeug - INFO - 127.0.0.1 - - [18/Sep/2023 17:49:02] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
