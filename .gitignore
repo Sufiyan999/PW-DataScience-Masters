@@ -3,7 +3,7 @@
 An Extra/
 Datasets/ 
 Projects/
-*.py
+commit.py 
 *.exe 
 *.cpp
 *.js

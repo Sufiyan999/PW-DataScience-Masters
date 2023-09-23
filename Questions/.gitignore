@@ -1,0 +1,6 @@
+*.lock
+.vscode
+*.py 
+*.exe 
+*.cpp
+*.js
