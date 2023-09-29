@@ -1,5 +1,5 @@
 
-# TFIDF, Word2Vec & Text Classification using ML
+# RNN Introduction & Sequencial Learning
 
 - ## **Zoom recorderd link** :-  ""https://us06web.zoom.us/rec/share/kU8UpT4_XpOgfDyoYeL3FFJGJrtwiuZ2lGLxV2btaXO0F2lw0dcXuocZFJZGM-g4.ZRL1wY408nf4fp8X"
 
