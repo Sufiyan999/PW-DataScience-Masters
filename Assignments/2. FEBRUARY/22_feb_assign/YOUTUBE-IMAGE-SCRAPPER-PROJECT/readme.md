@@ -1,6 +1,6 @@
 # YouTube Channel Scraper
 
-This Python project allows you to search for a YouTube channel, scrape its latest updated videos' information, and display the data in a tabular format on the screen. Additionally, you can download the scraped data in CSV file format.
+This Python project allows you to search for a YouTube channel, scrape its latest updated videos' information, and display the data in a tabular format on the screen. Additionally, you can download the scraped data in CSV file format as well as also in json.
 
 ## Features
 
@@ -14,14 +14,14 @@ This Python project allows you to search for a YouTube channel, scrape its lates
   - Thumbnail URL
   - Title
   - Views
-  - Published Time (and potentially more than 20 other values)
+  - Published Time (and potentially more than 30 other values)
 
 ## Getting Started
 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/Sufiyan999/PW-DataScience-Masters/blob/master/Assignments/2.%20FEBRUARY/22_feb_assign/YOUTUBE-IMAGE-SCRAPPER-PROJECT
+   git clone https://github.com/Sufiyan999/YOUTUBE-IMAGE-SCRAPPER-PROJECT
    ```
 
 2. Navigate to the project directory:

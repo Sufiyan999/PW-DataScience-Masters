@@ -64,14 +64,16 @@ body * {
 
 .btn{
   background-color: #5cedf0;
-  item_align : left;
+  /* item_align : left; */
+  cursor: pointer;
   border-radius: 20px;
 }
 
 .btn:hover{
   background-color:#14bec1;
+  color:white;
   border-radius: 32px;
-  opacity: 0.7;
+  opacity: 0.7 ;
 }
 
 .table-users {

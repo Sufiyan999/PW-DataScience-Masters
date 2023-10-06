@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Video Gallery</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .video {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            object-fit: contain;
+            cursor: pointer;
+            transition: transform 0.3s, filter 0.3s;
+        }
+
+        .video.expanded {
+            transform: scale(1.5); /* Increase the size when expanded */
+            filter: blur(5px); /* Apply a blur effect to the background */
+        }
+        
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .video {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+{% endblock %}
+{% block body %}
+    <div class="container">
+        <div class="video-container">
+            {% for video_url in video_urls %}
+                <div class="video" onclick='expandVideo("https\://www.youtube.com/embed/{{ video_url }}")'>
+                    <iframe style="min-width:20%;min-height:40px;" frameborder="0" src="https://www.youtube.com/embed/{{ video_url }}"></iframe>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        function expandVideo(videoUrl) {
+            const videos = document.querySelectorAll('.video');
+            videos.forEach((video) => {
+                video.classList.remove('expanded');
+            });
+
+            const modal = document.createElement('div');
+            modal.className = 'modal';
+            modal.innerHTML = `<iframe frameborder="0" src="${videoUrl}"></iframe>`;
+            modal.addEventListener('click', () => {
+                modal.remove();
+                videos.forEach((video) => {
+                    video.classList.remove('expanded');
+                });
+            });
+            document.body.appendChild(modal);
+
+            // Expand the clicked video
+            const clickedVideo = document.querySelector(`[src="${videoUrl}"]`);
+            clickedVideo.classList.add('expanded');
+        }
+    </script>
+{% endblock %}
