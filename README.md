@@ -10,25 +10,25 @@ But that's not all – My [repo](https://github.com/Sufiyan999/PW-DataScience-Ma
 
 An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-important-message-for-pw-skills---data-science-masters-and-full-stack-data-science-pro-batch-students) for PW Skills and Ineuron - Data Science Masters and Full Stack Data Science Pro Batch Students , know the [importance of colbrative learning](https://github.com/Sufiyan999/PW-DataScience-Masters#the-importance-of-collaborative-learning-and-resource-sharing-for-students-in-data-science), and boost this repo by [adding](https://github.com/Sufiyan999/PW-DataScience-Masters#how-to-contribute) your repo's links in this [`Readme`](https://github.com/Sufiyan999/PW-DataScience-Masters/blob/master/README.md).
 
->
-> ## What you'll learn
->
->- Python
->- Statistics
->- Machine learning
->- Deep learning
->- Computer vision
->- Natural language processing
->- Big Data
->- Apache Spark
->- Apache Kafka
->- Data Analytics
->- PowerBI
->- Tableau
->- Databases
->- Data Science Workflow
->- Real Time Data Science Projects
->
+
+## What you'll learn
+
+- Python
+- Statistics
+- Machine learning
+- Deep learning
+- Computer vision
+- Natural language processing
+- Big Data
+- Apache Spark
+- Apache Kafka
+- Data Analytics
+- PowerBI
+- Tableau
+- Databases
+- Data Science Workflow
+- Real Time Data Science Projects
+
 
 ## What You'll Find Here
 
