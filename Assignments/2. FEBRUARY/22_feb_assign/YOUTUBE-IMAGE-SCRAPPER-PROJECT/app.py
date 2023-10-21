@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request,jsonify,send_file
+from flask import Flask, render_template, request,jsonify,send_file , redirect 
 from flask_cors import CORS,cross_origin
 import requests
 import logging
@@ -181,13 +181,30 @@ def visualize():
     p = create_bokeh_plot(df)
     output_file("static/bokeh_plot_with_hover_and_image.html")
     show(p)
-    return render_template('bokeh.html', script=p)   
+    return redirect("static/bokeh_plot_with_hover_and_image.html")
+    # return render_template('bokeh.html', script=p)   
                     
                     
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
     
-    #"D:\Softwares\Anaconda\Scripts\activate.bat"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+#"D:\Softwares\Anaconda\Scripts\activate.bat"
 
 
 
