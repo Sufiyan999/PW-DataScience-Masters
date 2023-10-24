@@ -1,6 +1,4 @@
 *.lock
 .vscode
-*.py 
-*.exe 
-*.cpp
-*.js
+this.py
+ya.exe
