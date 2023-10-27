@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
  <style>
+
+
+
   .image_preview
   {
    display:flex;
    border-radius:10px;
-   height:50px;
-   width:50px;
+   height:100px;
+   width:100px;
   }
   .yt-icon {
     display: inline-block;
@@ -47,6 +50,50 @@
           
           }
 
+.table-container {
+    overflow-x: auto; /* Add a horizontal scrollbar on small screens */
+    width: 100%; /* Table width is set to 100% to make it responsive */
+}
+
+table {
+    width: 100%; /* Table width is set to 100% to make it responsive */
+}
+.url-break p{
+    white-space: pre-wrap; /* This allows line breaks to be displayed */
+}
+.image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.image_preview {
+    max-width: 100%; /* Adjust the image width as needed */
+}
+
+.image-link {
+    display: inline-block;
+}
+
+
+
+@media (max-width: 1100px) { /* Adjust the width as needed */
+    .image-link {
+        display: none; /* Hide the image on smaller screens */
+    }
+}
+
+
+.summary {
+    background-color: #f1f1f1; /* Set the background color for the summary/footer */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.summary-content {
+    display: inline-block;
+}
+
+
+
  </style>
 
 
@@ -68,21 +115,71 @@
       <a href="/JSON" download><button class="btn">Download JSON</button></a>
       <a href="/download" download><button class="btn">Download File</button></a>
     </div>
+
+    <div class="table-container">
     <table cellspacing="0">
         {% for review in report_list %}
       <tr style='width:30'>
-          <td style='width:30'><a href='{{review[1]}}' >{{review[1]}}</a></td>
-          <td style='width:30'><a href='{{review[2]}}'><img class="image_preview" src="{{review[2]}}" alt="" onerror="this.style.display='none'"></img></a><a href='{{review[2]}}'>{{review[2]}}</a></td>
+          <td style='width:30'>
+          <a href='{{review[1]}}' >
+            {% if "https://www.youtube.com/watch" in review[1] %}
+                {{review[1][:12]}}<br>{{review[1][12:23]}}<br>{{review[1][23:32]}}<br>{{review[1][32:]}}
+            {% else %}
+                {{review[1]}}
+            {% endif %}
+        </a>
+      </td>
+
+          <td style='width:40'>
+
+            <div class="image-text-container">
+
+              <a href='{{review[2]}}' class="image-link"><img class="image_preview"  src="{{review[2]}}" alt="" onerror="this.style.display='none'"></a>
+
+
+              <a href='{{review[2]}}'>
+              <div class="url-break">
+                  {% for i in range(0, review[2]|length, 35) %}
+                      <p>{{ review[2][i:i+35] }}</p>
+                  {% endfor %}
+              </div>
+              </a>
+          </div>
+
+
+            <!-- <a href='{{review[2]}}'><img class="image_preview" src="{{review[2]}}" alt="" onerror="this.style.display='none'"></img></a>
+            <a href='{{review[2]}}'>
+               {{review[2]}}   -->
+            
+            <!-- <div class="url-break">
+              {% for i in range(0, review[2]|length, 40) %}
+                  <p>{{ review[2][i:i+40] }}</p>
+              {% endfor %}
+          </div> --> 
+
+        </a>
+          
+          </td>
           <td style='width:30'>{{review[3]}}</td>
-          <td style='width:30'>{{review[4]}}</td>
-          <td style='width:30'>{{review[5]}}</td>
-          <td style='width:30'>{{review[6]}}</td>
+          <td style='width:20'>{{review[4]}}</td>
+          <td style='width:20'>{{review[5]}}</td>
+          <td style='width:20'>{{review[6]}}</td>
       </tr>
       
       {% endfor %}
     </table>
+  </div>
+<!-- Summary or Footer -->
+<div class="summary">
+  <div class="summary-content">
+      <p>Fetch Time: {{ fetch_time }}</p>
+      <p>Entries: {{ num_rows }}</p>
+  </div>
 </div>
-<div>&#xf16a;    
+
+
+</div>
+<div>   &#xf16a;    
      <button class="button" onclick="redirectToJson()">Get Json</button>     
      <button class="button" onclick="redirectToVisualize()">Visualize</button> 
      <a href="/JSON" download><button class="button">Download JSON</button></a>
@@ -123,7 +220,7 @@
     function redirectToJson()
      {
             window.location.href = "/json" ;
-        }
+     }
 
 
         function redirectToVisualize()

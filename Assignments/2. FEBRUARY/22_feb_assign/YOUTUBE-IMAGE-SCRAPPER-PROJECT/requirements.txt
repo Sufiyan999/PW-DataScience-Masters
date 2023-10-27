@@ -4,9 +4,8 @@ requests
 bs4
 bokeh
 datetime
-re
-os
 json
-logging
+zipfile
+codec
 pandas
 csv

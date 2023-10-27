@@ -30,15 +30,39 @@
 				height: auto;
 			}
 		}
+
+		.button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            align-items: right;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        /* Hover effect */
+        .button:hover 
+        {
+            background-color: #0056b3; 
+          
+          }
 	</style>
 {% endblock %}
 {% block body %}
+   
+	<div style = "align-items: right;">
+		<a href="/ZIP" download><button class="button">Download Images</button></a> 
+	
+		</div>
+
 	<div class="container">
 		<img src="{{ url_for('static', filename='css/example.jpg')}}" alt="Image"></img>
 		{% for img_url in img_urls %}
 		<a href='{{img_url}}'><img src="{{img_url}}" alt="{{img_url}}"></img></a>
 		{% endfor %}
 	</div>
+
 {% endblock %}
 </html>      
 

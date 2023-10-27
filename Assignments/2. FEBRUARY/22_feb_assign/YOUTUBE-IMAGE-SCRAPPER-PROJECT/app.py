@@ -6,7 +6,7 @@ import os
 import re
 import pandas as pd
 import json 
-from utils import  create_bokeh_plot , views_to_numeric , save_to_csv_file, get_from_csv_file , get_json_by_csv
+from utils import  create_bokeh_plot , views_to_numeric , save_to_file, get_from_csv_file , get_json ,zip_images
 from utils import figure, output_file, show
 import datetime
 
@@ -38,6 +38,7 @@ def index():
 
             # fetch the search results page
             response = requests.get(f"https://www.youtube.com/@{query}/videos", headers=headers)
+            fetch_time = datetime.datetime.now().isoformat(sep="+")
             res = response.text
 
             # Video
@@ -57,8 +58,8 @@ def index():
                 ['S No', 'Video url', 'Thumbnail', 'Title', 'Views', 'Published Time']
             ]
             
-            min_video_count = min(len(videoids) , len( thumbnails) , len(published_time) , len( titles) , len( views))
-            print("min fethed videoes : " , min_video_count)
+            min_video_count = min(len(videoids) , len(thumbnails) , len(published_time) , len(titles) , len(views))
+            print("min fethed videos : " , min_video_count)
             
             for i in range(min_video_count):
                 try:
@@ -76,14 +77,12 @@ def index():
                         print(e)
                         continue
                     
+            num_rows = min_video_count    
             # print(report_list)     
-            save_to_csv_file(report_list)
-            return render_template('result.html', report_list=report_list, channel=query)
-
-        except UnicodeEncodeError as e:
-                save_to_csv_file(report_list)
-                return render_template('result.html', report_list=report_list, channel=query)
+            save_to_file(report_list , time = fetch_time ,query = query)
             
+            return render_template('result.html', report_list=report_list, channel=query , num_rows = num_rows , fetch_time = fetch_time )
+              
         except Exception as e:
             logging.info(e)
             query = request.form['content']
@@ -93,8 +92,19 @@ def index():
         print('GET')
         
         report_list = get_from_csv_file()
-        print(len(report_list) , len(report_list[0]))
-        return render_template('result.html', report_list=report_list, channel=query)
+        print(report_list[-2][0] , len(report_list[0]))
+        try:
+                num_rows =  int(report_list[-1][0])
+        except:
+                 num_rows =  int(report_list[-2][0])        
+                
+        dic = get_json()
+        fetch_time =  dic["Fetch Time"]
+        
+        if not query is None:
+            query  = dic["Query"]
+          
+        return render_template('result.html', report_list=report_list, channel=query , num_rows = num_rows, fetch_time = fetch_time )
     
     else:
         return render_template('index.html')
@@ -105,15 +115,14 @@ def index():
 @app.route('/download')
 @cross_origin()
 def download_file():
-    filename = 'scrapped_data.csv'
-
-    csv_file = filename 
-    df = pd.read_csv(csv_file)
-
+    csv_file = 'scrapped_data.csv'
     excel_file = 'scrapped_data.xlsx'  
-
-    df["fetch time"]  =  (datetime.datetime.now().isoformat(),)*df.shape[0]
-    df["Numeric Views"] = df["Views"].apply(views_to_numeric) 
+    
+    df = pd.read_csv(csv_file)
+    dic = get_json()
+    
+    df["Fetch Time"]  =  pd.Series(  ( dic["Fetch Time"] , )*df.shape[0]  )
+    df["Numeric Views"] = pd.Series(dic["Numeric Views"]) 
     
     df.to_excel(excel_file, index=False)  
     
@@ -156,7 +165,7 @@ def show_videos():
 @cross_origin()
 def json_renderer():
    
-        dic = get_json_by_csv()
+        dic = get_json()
         return jsonify(dic)
          
 
@@ -166,12 +175,14 @@ def json_renderer():
 def JSON_FILE():
     
      file_name = "scrapped_data.json"
-    
-     with open( file_name , "w") as fileobj:
-         json.dump( get_json_by_csv(), fileobj ) 
-         
      return send_file( file_name , as_attachment=True)
 
+
+@app.route('/ZIP',methods = ['POST' , 'GET'])
+@cross_origin()
+def ZIP_FILE():  
+     file_name = zip_images()  
+     return send_file( file_name , as_attachment=True)
   
   
 
@@ -184,10 +195,13 @@ def visualize():
     return redirect("static/bokeh_plot_with_hover_and_image.html")
     # return render_template('bokeh.html', script=p)   
                     
-                    
+                 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
-    
+    files = [ "scrapped_data.csv" , "scrapped_data.json" , "scrapped_data.xlsx" , "static/bokeh_plot_with_hover_and_image.html" ,"images.zip"]
+    # for file in files:
+    #     os.remove(files)
+        
     
     
     
