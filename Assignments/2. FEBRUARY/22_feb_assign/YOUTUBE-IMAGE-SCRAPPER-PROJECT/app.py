@@ -101,7 +101,7 @@ def index():
         dic = get_json()
         fetch_time =  dic["Fetch Time"]
         
-        if not query is None:
+        if query is None:
             query  = dic["Query"]
           
         return render_template('result.html', report_list=report_list, channel=query , num_rows = num_rows, fetch_time = fetch_time )
