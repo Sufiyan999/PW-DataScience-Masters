@@ -15,7 +15,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 logging.basicConfig(filename=os.path.join(BASE_DIR, "scrapper.log") , level=logging.INFO)
 
 app = Flask(__name__)
-query = None
+query = None 
+CSV_FILE_PATH = 'scrapped_data.csv'
 
 print("Youtube Scrap")
 
@@ -61,11 +62,13 @@ def index():
             min_video_count = min(len(videoids) , len(thumbnails) , len(published_time) , len(titles) , len(views))
             print("min fethed videos : " , min_video_count)
             
+            yt_preffix = 'https://www.youtube.com/watch?v='
+            
             for i in range(min_video_count):
                 try:
                     temp = []
                     temp.append(i+1)
-                    temp.append('https://www.youtube.com/watch?v=' + videoids[i].split('"')[-2])
+                    temp.append( yt_preffix + videoids[i].split('"')[-2])
                     temp.append(thumbnails[i].split('"')[-2])
                     temp.append(titles[i].split('"')[-2])
                     temp.append(views[i].split('"')[-2].split()[-2])
@@ -115,18 +118,18 @@ def index():
 @app.route('/download')
 @cross_origin()
 def download_file():
-    csv_file = 'scrapped_data.csv'
-    excel_file = 'scrapped_data.xlsx'  
+    EXCEL_FILE_PATH = 'scrapped_data.xlsx'  
+ 
+    df = pd.read_csv(CSV_FILE_PATH)
     
-    df = pd.read_csv(csv_file)
     dic = get_json()
     
     df["Fetch Time"]  =  pd.Series(  ( dic["Fetch Time"] , )*df.shape[0]  )
     df["Numeric Views"] = pd.Series(dic["Numeric Views"]) 
     
-    df.to_excel(excel_file, index=False)  
+    df.to_excel( EXCEL_FILE_PATH , index=False)  
     
-    return send_file( excel_file , as_attachment=True)
+    return send_file( EXCEL_FILE_PATH , as_attachment=True)
 
 
 @app.route('/Thumbnail',methods = ['POST' , 'GET'])
@@ -169,30 +172,31 @@ def json_renderer():
         return jsonify(dic)
          
 
-
 @app.route('/JSON',methods = ['POST' , 'GET'])
 @cross_origin()
 def JSON_FILE():
     
-     file_name = "scrapped_data.json"
-     return send_file( file_name , as_attachment=True)
+     JSON_FILE_PATH = "scrapped_data.json"
+     return send_file( JSON_FILE_PATH , as_attachment=True)
 
 
 @app.route('/ZIP',methods = ['POST' , 'GET'])
 @cross_origin()
 def ZIP_FILE():  
-     file_name = zip_images()  
-     return send_file( file_name , as_attachment=True)
+     ZIP_FILE_PATH = zip_images()  
+     return send_file( ZIP_FILE_PATH , as_attachment=True)
   
   
 
 @app.route('/visualize')
-def visualize():
-    df  = pd.read_csv("scrapped_data.csv")
+def Visualize():
+    OUTPUT_FILE_NAME = "static/bokeh_plot_with_hover_and_image.html"
+    
+    df  = pd.read_csv(CSV_FILE_PATH)
     p = create_bokeh_plot(df)
-    output_file("static/bokeh_plot_with_hover_and_image.html")
+    output_file(OUTPUT_FILE_NAME)
     show(p)
-    return redirect("static/bokeh_plot_with_hover_and_image.html")
+    return redirect(OUTPUT_FILE_NAME)
     # return render_template('bokeh.html', script=p)   
                     
                  
@@ -202,33 +206,9 @@ if __name__ == "__main__":
     # for file in files:
     #     os.remove(files)
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
 #"D:\Softwares\Anaconda\Scripts\activate.bat"
-
-
-
-
-
-
-
-
-
-
 
 
 
