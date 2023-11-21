@@ -2,6 +2,7 @@ flask
 flask_cors
 requests
 bs4
+requests_html
 bokeh
 datetime
 json

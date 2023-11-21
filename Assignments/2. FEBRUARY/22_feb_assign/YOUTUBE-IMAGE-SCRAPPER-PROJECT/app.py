@@ -6,9 +6,11 @@ import os
 import re
 import pandas as pd
 import json 
-from utils import  create_bokeh_plot , views_to_numeric , save_to_file, get_from_csv_file , get_json ,zip_images
+from utils import  create_bokeh_plot , views_to_numeric , save_to_file, get_from_csv_file , get_json ,zip_images ,refine_list
 from utils import figure, output_file, show
 import datetime
+from requests_html import HTMLSession
+from bs4 import BeautifulSoup as bs
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -39,7 +41,7 @@ def index():
 
             # fetch the search results page
             response = requests.get(f"https://www.youtube.com/@{query}/videos", headers=headers)
-            fetch_time = datetime.datetime.now().isoformat(sep="+")
+            fetch_time = datetime.datetime.now().isoformat()
             res = response.text
 
             # Video
@@ -51,28 +53,28 @@ def index():
             # Views
             views = re.findall('"shortViewCountText":{"accessibility":{"accessibilityData":{"label":".*?"', res)
             # Published Time
-            published_time = re.findall('"publishedTimeText":{"simpleText":".*?"', res)
+            relative_time = re.findall('"publishedTimeText":{"simpleText":".*?"', res)
             
            
             
             report_list = [
-                ['S No', 'Video url', 'Thumbnail', 'Title', 'Views', 'Published Time']
+                ['S No', 'Video Url', 'Thumbnail', 'Title', 'Views', 'Published Time' , "Upload Time"]
             ]
             
-            min_video_count = min(len(videoids) , len(thumbnails) , len(published_time) , len(titles) , len(views))
+            min_video_count = min(len(videoids) , len(thumbnails) , len(relative_time) , len(titles) , len(views))
             print("min fethed videos : " , min_video_count)
             
-            yt_preffix = 'https://www.youtube.com/watch?v='
-            
+            urls =[]
             for i in range(min_video_count):
                 try:
                     temp = []
                     temp.append(i+1)
-                    temp.append( yt_preffix + videoids[i].split('"')[-2])
+                    temp.append('https://www.youtube.com/watch?v='  + videoids[i].split('"')[-2])
+                    urls.append(temp[1])
                     temp.append(thumbnails[i].split('"')[-2])
                     temp.append(titles[i].split('"')[-2])
                     temp.append(views[i].split('"')[-2].split()[-2])
-                    temp.append(published_time[i].split('"')[-2])
+                    temp.append(relative_time[i].split('"')[-2])
                     
                     report_list.append(temp)
                     
@@ -81,7 +83,44 @@ def index():
                         continue
                     
             num_rows = min_video_count    
-            # print(report_list)     
+            # print(report_list) 
+            
+             
+            # for url in urls:
+            
+            #     session = HTMLSession() 
+            #     response = session.get(url)  
+
+            #     if response.status_code != 200: 
+            #         print("error")
+            #         views.append("Error! Response = " + str(response.status_code))
+            #     else:
+            #         soup = bs(response.content, "html.parser")  
+            #         view =  soup.find("meta", itemprop="interactionCount")["content"]
+            #         views.append(view)
+                    
+            # print(views)
+            
+            times = []
+            session = HTMLSession() 
+            for url in urls:
+   
+                response = session.get(url)  
+
+                if response.status_code != 200: 
+                    times.append("Error! Response = " + str(response.status_code))
+                else:
+                    soup = bs(response.content, "html.parser")  
+                    time = soup.find("meta", itemprop="uploadDate")["content"]
+                    times.append(time)
+              
+            print(times  , len(times))  
+            
+            for time , row in zip(times , report_list[1:]):
+                                          row.append(time) 
+                                          
+            report_list = refine_list(report_list)                                 
+                       
             save_to_file(report_list , time = fetch_time ,query = query)
             
             return render_template('result.html', report_list=report_list, channel=query , num_rows = num_rows , fetch_time = fetch_time )
@@ -93,13 +132,20 @@ def index():
         
     if request.method == 'GET':
         print('GET')
-        
-        report_list = get_from_csv_file()
-        print(report_list[-2][0] , len(report_list[0]))
         try:
-                num_rows =  int(report_list[-1][0])
-        except:
-                 num_rows =  int(report_list[-2][0])        
+               report_list = get_from_csv_file()
+        except:         
+               return render_template("index.html")         
+         
+        if len(report_list) > 2:                         
+                    print(report_list[-2][0] , len(report_list[0]))
+                    try:
+                            num_rows =  int(report_list[-1][0])
+                    except:
+                            num_rows =  int(report_list[-2][0]) 
+                            
+        else : 
+             num_rows = 1                         
                 
         dic = get_json()
         fetch_time =  dic["Fetch Time"]

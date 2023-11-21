@@ -91,7 +91,11 @@ table {
 .summary-content {
     display: inline-block;
 }
-
+.mylogo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add margin for spacing */
+}
 
 
  </style>
@@ -186,9 +190,21 @@ table {
      <a href="/download" download><button class="button">Download File</button></a> 
   
   <div>
-  <footer id="footer">Copyright ©   <br> >> <a href="https://www.linkedin.com/in/sufiyan-mohammad-04a114264"> https://www.linkedin.com/in/sufiyan-mohammad-04a114264 </a>  
-    <br> >> <a href="https://github.com/Sufiyan999/"> https://github.com/Sufiyan999/ </a> 
-    <br> >> <a href="https://github.com/Sufiyan999/YOUTUBE-IMAGE-SCRAPPER-PROJECT"> Source code </a> 
+  <footer id="footer">Copyright ©   <br>     <a href="https://www.linkedin.com/in/sufiyan-mohammad-04a114264" target="_blank" rel="noopener noreferrer">
+    <img class="mylogo" src="{{ url_for('static', filename='css/linkdin_logo.png')}}" alt="LinkedIn Logo">
+</a> 
+   <a href="https://github.com/Sufiyan999/" target="_blank" rel="noopener noreferrer">
+      <img class="mylogo" src="{{ url_for('static', filename='css/github_mark.png')}}" alt="Github Logo">
+  </a> 
+    
+    
+     
+    <br> >> <a href="https://github.com/Sufiyan999/YOUTUBE-IMAGE-SCRAPPER-PROJECT"> Source code </a>
+    
+    
+
+
+
   </footer>
 
   <script>

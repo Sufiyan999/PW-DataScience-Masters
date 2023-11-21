@@ -70,7 +70,14 @@ def get_json():
             
       return dic
 
-                                
+
+def refine_list(lst):
+    for row in lst:
+         temp = row[5]
+         row[5] = row[6]
+         row[6] =temp
+            
+    return lst                            
 
 # Convert views to numeric
 def views_to_numeric(views_str):
@@ -137,7 +144,7 @@ def create_bokeh_plot(df , hover_data = True):
                                 <img src="@{Thumbnail}" style="max-height: 100px;">
                                 <a href="@{ Video url}" > </a>
                                 <p><strong style="color:red;" >Title:</strong> @{Title}</p>
-                                <p><strong style="color:red;">Published Time:</strong> @{Published Time}</p>
+                                <p><strong style="color:red;">Published Time:</strong> @{Upload Time}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  @{Published Time}</p>
                                 <p><strong style="color:red;">Views:</strong> @{Views}</p>
                             </div>
                         """
@@ -187,18 +194,21 @@ def zip_images():
         dic = get_json()
         # List of image URLs to download
         image_urls = dic["Thumbnail"]
-        image_names = dic["Title"]
+        image_names = dic["Title"]	
+        Upload_Time = dic["Upload Time"]
+        # Relative_Time   = dic["Relative Time"]
         # Create a directory to store downloaded images
         download_dir = os.path.join(BASE_DIR, 'downloaded_images')
         os.makedirs(download_dir, exist_ok=True)
 
         # Download images and save them to the directory
-        for url , name in zip(image_urls , image_names):
+        for  url , name ,i in zip(image_urls , image_names, range(len(image_urls))):
             response = requests.get(url)
             if response.status_code == 200:
                 # filename = os.path.join(download_dir, os.path.basename(url))
                 name = refine_name(name)
-                filename = os.path.join(download_dir, name+".jpg")
+                st = "D+"+Upload_Time[i].replace( "-" ," ").replace(":" ,"_").replace("T" ," T+")
+                filename = os.path.join(download_dir, name +f"  { st } "  +".jpg")
                 with open(filename, 'wb') as file:
                     file.write(response.content)
                 print(f'Downloaded: {filename}')
