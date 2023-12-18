@@ -1,0 +1,1 @@
+{"global_step": 5, "correct": 0, "similar": 1, "incorrect": 2, "train_loss": 3.6614584922790527, "eval_loss": -0.280517578125, "_timestamp": 1697642114.4816802, "_runtime": 34.67014217376709, "_step": 4, "_wandb": {"runtime": 41}}

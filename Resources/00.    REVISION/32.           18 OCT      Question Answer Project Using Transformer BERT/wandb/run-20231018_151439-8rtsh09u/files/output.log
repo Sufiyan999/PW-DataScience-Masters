@@ -1,0 +1,7 @@
+/usr/local/lib/python3.10/dist-packages/torch/optim/lr_scheduler.py:139: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+convert squad examples to features: 100%|██████████| 3/3 [00:00<00:00, 285.20it/s]
+add example index and unique id: 100%|██████████| 3/3 [00:00<00:00, 13903.77it/s]
+convert squad examples to features: 100%|██████████| 1/1 [00:00<00:00, 135.74it/s]
+add example index and unique id: 100%|██████████| 1/1 [00:00<00:00, 3480.75it/s]
+[{'id': '0', 'answer': ['empty']}]
