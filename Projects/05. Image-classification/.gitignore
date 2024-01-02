@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -47,7 +46,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
+cover
 .hypothesis/
 .pytest_cache/
 
@@ -127,5 +126,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-inputImage.jpg
 model/model_vgg16.h5
