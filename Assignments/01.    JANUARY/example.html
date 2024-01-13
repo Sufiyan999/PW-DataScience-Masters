@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banner with Text and Information</title>
+<style>
+.banner {
+  background-color: rgb(30, 5, 119);
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 10px;
+}
+
+.link {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.link::before {
+  content: '\1F517';      /* Unicode character for 🔗 emoji */
+  margin-right: 5px;
+}
+.link::after {
+  content: '\1F517';      /* Unicode character for 🔗 emoji */
+  margin-right: 5px;
+}
+</style>
+</head>
+<body>
+  <div style="background-color: rgb(30, 5, 119); color: white; padding: 20px; position: relative; text-align: center;">
+    <h1 style="font-size: 50px; color: rgb(153, 17, 216); padding: 20px;"><b>PYTHON</b></h1>
+    <a href="#" style="position: absolute; bottom: 10px; left: 10px; font-size: 10px; color: white; text-decoration: none;">
+      <img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="vertical-align: middle; width: 20px; height: 20px;">  Question Bank 📝
+    </a>
+    <p style="position: absolute; bottom: 5px; right: 65px; font-size: 10px;">29 Jan 2023</p>
+  
+    <a href="https://colab.research.google.com/github/Sufiyan999/PW-DataScience-Masters/blob/master/Assignments/01.%20%20%20%20JANUARY/29_jan_assign.ipynb" target="_blank" style="position: reative; bottom: 10px; left: 10px; font-size: 10px; color: white; text-decoration: none;">
+      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="vertical-align: middle;"> 
+    </a>
+  </div>
+  <div style="background-color: rgb(30, 5, 119); color: white; padding: 20px; position: relative; text-align: center; border-radius: 0 0 20px 20px;">
+    <a href="#" style="position: absolute; bottom: 10px; left: 10px; font-size: 10px; color: white; text-decoration: none;">
+      <img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="vertical-align: middle; width: 20px; height: 20px;"> Answer Sheet 📖
+    </a>
+  </div>
+  
+  
+</body>
+</html>
