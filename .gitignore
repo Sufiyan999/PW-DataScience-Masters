@@ -2,6 +2,7 @@
 .vscode
 An Extra/
 Datasets/ 
+Projects/
 commit.py 
 *.exe 
 *.cpp
