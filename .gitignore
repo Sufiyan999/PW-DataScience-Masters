@@ -4,5 +4,11 @@ An Extra/
 Datasets/ 
 Projects/
 commit.py 
-*.exe 
-*.cpp
+commit.exe
+push.cpp
+push.exe
+push_20.exe
+push_always.exe
+push_once.exe
+push_option_for_continuity.exe
+
