@@ -32,9 +32,13 @@ An Important [Message](https://github.com/Sufiyan999/PW-DataScience-Masters#an-i
 
 ## What You'll Find Here
 
-- 📚 **Assignments and Questions**: The [Questions](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Questions)  folder contains thought-provoking assignment questions designed to challenge and enhance your understanding of data science concepts.
+- 📚 **Questions Bank**: The [Questions](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Questions)  folder contains thought-provoking assignment questions  designed to challenge and enhance your understanding of data science concepts.
 
-- 📝 **Answer Assignments (.ipynb Files)**: For each set of questions, head over to the [Assignments](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Assignments) . There, you'll find meticulously crafted Jupyter Notebook files (.ipynb) that showcase my solutions and thought process. These files serve as a valuable resource to learn, compare, and refine your own approaches.
+- 📝 **Answer Assignments (.ipynb Files)**: For each set of questions, head over to the
+<img width="20" height="20" src="https://img.icons8.com/fluency/20/jupyter.png" alt="jupyter"/>
+ [Assignments](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Assignments) . There, you'll find meticulously crafted Jupyter Notebook files (.ipynb) that showcase my solutions of these [Question Banks](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Questions) and thought process. These files serve as a valuable resource to learn, compare, and refine your own approaches.
+
+
 
 - 🗂️ **Resources**: Navigating through this repository is a breeze. The content is neatly organized in [Resources](https://github.com/Sufiyan999/PW-DataScience-Masters/tree/master/Resources) folder by date and month, spanning from January to September. Within each month's folder, you'll discover a curated selection of resources provided by my course on the online learning platform. These resources include supplementary reading materials, tutorial videos, and code samples.
 
