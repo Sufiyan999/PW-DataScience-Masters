@@ -1,1 +1,0 @@
-You will have your trained model in this folder
